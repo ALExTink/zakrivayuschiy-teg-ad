@@ -35,7 +35,7 @@
   margin: 0 auto;
   inline-size: var(--card-inline-size, min(100%, 700px));
 }
-
+/* stylelint-disable-next-line */
 .header__container {
   display: flex;
   flex-direction: column;

@@ -35,7 +35,7 @@
   margin: 0 auto;
   inline-size: var(--card-inline-size, min(100%, 700px));
 }
-/* stylelint-disable-next-line */
+
 .header__container {
   display: flex;
   flex-direction: column;
@@ -46,6 +46,7 @@
   font-family: var(--font-accent, 'Courier New', monospace);
   text-transform: uppercase;
   background-color: var(--bg-color, #fff);
+
   width: 700px;
   height: 368px;
 }
@@ -182,31 +183,31 @@
 }
 
 
-.article__img--blur {
+.article_img_blur {
   filter: blur(4px);
 }
 
-.article__img--brightness {
+.article_img_brightness {
   filter: brightness(5);
 }
 
-.article__img--saturate {
+.article_img_saturate {
   filter: saturate(5);
 }
 
-.article__img--grayscale {
+.article_img_grayscale {
   filter: grayscale(1);
 }
 
-.article__img--hue-rotate {
+.article_img_rotate {
   filter: hue-rotate(180deg);
 }
 
-.article__img--mix {
+.article_img_mix {
   filter: blur(4px) invert(100%);
 }
 
-.article__img--sepia {
+.article_img--sepia {
   filter: sepia(1);
 }
 

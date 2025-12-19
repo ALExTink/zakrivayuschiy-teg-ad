@@ -46,7 +46,6 @@
   font-family: var(--font-accent, 'Courier New', monospace);
   text-transform: uppercase;
   background-color: var(--bg-color, #fff);
-
   width: 700px;
   height: 368px;
 }
